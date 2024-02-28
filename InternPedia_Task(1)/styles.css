@@ -1,0 +1,94 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: medium;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.7) url('https://i.pinimg.com/736x/48/ae/4b/48ae4b7572b9d8df2df06a161f5794b6.jpg') center center fixed;
+    background-size: cover;
+    font-size: 24px; 
+    color: #fff;
+}
+
+header {
+    background-color: #2b1715;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #644838;
+    padding: 11px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+main h2,
+main h3,
+main p,
+main ul {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #644838;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #6B5547;
+    font-size: 38px; 
+}
+
+h2, h3 {
+    color: #b89c8c;
+}
+
+h2 {
+    font-size: 30px; 
+}
+
+h3 {
+    font-size: 30px; 
+}
+
+p {
+    line-height: 1.5;
+    font-size: 24px; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
